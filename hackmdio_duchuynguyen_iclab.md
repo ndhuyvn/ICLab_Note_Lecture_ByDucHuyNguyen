@@ -457,7 +457,7 @@ Script content and setting method
 ![image](https://hackmd.io/_uploads/Sy2Jpxvakx.png)
 3.Core Ring:
 ![image](https://hackmd.io/_uploads/BJml6xvakg.png)
-4.Post-Route se**t**up time analysis:
+4.Post-Route setup time analysis:
 ![image](https://hackmd.io/_uploads/HJJv6xPayg.png)
 5.Post-Route hold time analysis:
 ![image](https://hackmd.io/_uploads/HJBDpgvTJx.png)
