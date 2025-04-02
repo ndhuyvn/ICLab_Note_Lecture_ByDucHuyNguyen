@@ -444,7 +444,7 @@ Script content and setting method
 
 # Important Source Files for Digital IC Flow
 1. Important for 00_TESTBED
-- [Makefile]([https://github.com/username/repository](https://github.com/ndhuyvn1994/IC_Lab_NYCU_Year2024_iclab069/blob/main/Lab01/Lab01_FinalVersion_GoodToRun_and_Learn/Exercise/00_TESTBED/makefile))
+- [Makefile](https://github.com/ndhuyvn1994/IC_Lab_NYCU_Year2024_iclab069/blob/main/Lab01/Lab01_FinalVersion_GoodToRun_and_Learn/Exercise/00_TESTBED/makefile)
 
 2. Important for 02_SYN
 - [TCL file for Synthesis](https://github.com/ndhuyvn1994/IC_Lab_NYCU_Year2024_iclab069/blob/main/Lab01/Lab01_FinalVersion_GoodToRun_and_Learn/Exercise/02_SYN/syn.tcl)
