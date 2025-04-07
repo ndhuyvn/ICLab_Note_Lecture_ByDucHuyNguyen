@@ -445,9 +445,9 @@ Script content and setting method
     ```
     
 7.  **If you want to modify the Lab path later**
--   Editing `~script/setting.csh`_`set FOLDER="Lab??/Exercise"`
--   Or enter it directly `setting`, and ![]the VSCode window will pop up and you can edit it.  
-![upload_62ec55fa58a496ac6e602a329a030c71](https://hackmd.io/_uploads/H1XYdUTKT.png)
+ - Editing `~script/setting.csh`_`set FOLDER="Lab??/Exercise"`
+ - Or enter it directly `setting`, and the VSCode window will pop up and you can edit it. ![Img_Setting_csh](./Imgs/Setting_csh.png)
+----------------------------------------------------------------
 
 
 # Important Source Files for Digital IC Flow
@@ -461,38 +461,38 @@ Script content and setting method
 # Experimental Demo
 
 1. Chip Layout View:  
-   ![image](https://hackmd.io/_uploads/Syl1pePpyl.png)  
+   ![image](./Imgs/ChipLayoutView.png)  
 
 2. Core to IO boundary:  
-   ![image](https://hackmd.io/_uploads/Sy2Jpxvakx.png)  
+   ![image](./Imgs/CoreIOBoundary.png)  
 
 3. Core Ring:  
-   ![image](https://hackmd.io/_uploads/BJml6xvakg.png)  
+   ![image](./Imgs/CoreRing.png)
 
 4. Post-Route setup time analysis:  
-   ![image](https://hackmd.io/_uploads/HJJv6xPayg.png)  
+   ![image](./Imgs/PostRouteSetupTimeAnalysis.png)  
 
 5. Post-Route hold time analysis:  
-   ![image](https://hackmd.io/_uploads/HJBDpgvTJx.png)  
+   ![image](./Imgs/PostRouteHoldTimeAnalysis.png)  
 
 6. DRC result:  
-   ![image](https://hackmd.io/_uploads/BkFDplvakl.png)  
+   ![image](./Imgs/DRCResult.png)  
 
 7. LVS result:  
-   ![image](https://hackmd.io/_uploads/r1pw6xDaJe.png)  
+   ![image](./Imgs/LVSResult.png)
 
 8. Post Layout simulation result:  
-   ![image](https://hackmd.io/_uploads/BJf_6lDT1x.png)  
+   ![image](./Imgs/PostLayoutSimulation.png)
 
 9. Power result:  
-   ![image](https://hackmd.io/_uploads/SyLOTgDTJl.png)  
+   ![image](./Imgs/PowerResult.png)
 
 10. IR Drop Results:  
-    ![image](https://hackmd.io/_uploads/r1KXxZwTyx.png)  
+    ![image](./Imgs/IRDropResult.png)  
 
-* A brief explanation of the method you used to mitigate the IR drop issue: 
-    * The number of power pads was increased, ensuring there are two pairs of core power and IO power on each side of the design. 
-    * The distribution of power across the circuitry was enhanced by adding more power pads. 
-    * The width of the power strips was expanded to reduce resistance along the power path. 
-    * The voltage drop was minimized by increasing the width of the power strips. 
-    * Overall power delivery was improved by implementing wider power strips and additional power pads.# [Course] IC Lab
+ - A brief explanation of the method you used to mitigate the IR drop issue: 
+  - The number of power pads was increased, ensuring there are two pairs of core power and IO power on each side of the design. 
+  - The distribution of power across the circuitry was enhanced by adding more power pads. 
+  - The width of the power strips was expanded to reduce resistance along the power path. 
+  - The voltage drop was minimized by increasing the width of the power strips. 
+  - Overall power delivery was improved by implementing wider power strips and additional power pads.
