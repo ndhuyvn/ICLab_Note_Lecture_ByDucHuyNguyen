@@ -32,7 +32,7 @@ onenote:https://d.docs.live.net/c14830083d8bce9a/Documents/Working%20-%20Company
 
 ---
 ## Overview for IC Design Flow
-![image](https://hackmd.io/_uploads/r12WyC9p1g.png)
+![image](./Imgs/OverviewForICDesignFlow.png)
 
 ---
 ## :feet: Implementation
