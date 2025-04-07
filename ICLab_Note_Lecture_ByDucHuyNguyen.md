@@ -112,7 +112,7 @@ ps -aux | grep iclab069
 kill -9 152160
 ``` 
 
-## Checking quota (**storage **limitation for each students)** 
+## Checking quota (**storage **limitation for each accounts)** 
 ----------------------------------------------------------------
 
 CMD: ```quota``` 
