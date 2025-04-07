@@ -458,6 +458,45 @@ Input with one click f. View current settings. Input `fsdb`modifications and dis
 
 # Experimental Demo
 
+## SRAM Generator using UCM180nm 
+ - How to generate SRAM from UMC180
+  - Step 1. >> cd Lab??/Exercise/Memory/ftclib_200901.2.1/ 
+  - Step 2. Open memaker.env file
+  - Step 3. Replace the path after ‘ setenv FTC ’ with your own absolute path
+   ![image](./Imgs/SRAM_1.png)  
+  - Step 4. >> source memaker.env ✔Step 5. >> cd EXE/
+  - Step 6. >> memaker
+   ![image](./Imgs/SRAM_2.png)  
+   ![image](./Imgs/SRAM_3.png)  
+  - Step 7. Choose your memory (single port/dual port) 
+  - Step 8. Set output loading to 0.05 pF
+  - Step 9. You can change your memory’s name and set the “Words” and “Bits”
+   ![image](./Imgs/SRAM_4.png)  
+   ![image](./Imgs/SRAM_5.png)  
+   ![image](./Imgs/SRAM_6.png)  
+   ![image](./Imgs/SRAM_7.png)  
+   ![image](./Imgs/SRAM_8.png)  
+  - Step 10. Click All and generate the memory
+   ![image](./Imgs/SRAM_9.png)  
+   ![image](./Imgs/SRAM_10.png)  
+   ![image](./Imgs/SRAM_11.png)  
+   ![image](./Imgs/SRAM_12.png)  
+  - Step 11. >> lc_shell
+  - Step 12. >> read_lib your_name_WC.lib
+  - Step 13. >> write_lib your_name_WC -output your_name_WC.db
+  - Step 14. Edit your filelist.f
+   ![image](./Imgs/SRAM_13.png)  
+  - Step 15. Put .db and .v file into your 04_MEM file
+  - Step 16. Open 02_SYN/.synopsys_dc.setup and add your .db file into the link_library and target_library
+    ![image](./Imgs/SRAM_14.png)  
+  - Mention: When using IP, information in lib file belong to certain module name, so modifying module name in v file is forbidden.
+  - The Different Delay when we READ from SRAM or WRITE to SRAM using UMC SRAM GENERATOR or SRAM from Synopsys Design ware: 
+    -	using UMC SRAM GENERATOR
+     ![image](./Imgs/SRAM_15.png)  
+    -	SRAM from Synopsys Design ware:
+     ![image](./Imgs/SRAM_16.png)  
+
+## APR - Layout
 1. Chip Layout View:  
    ![image](./Imgs/ChipLayoutView.png)  
 
