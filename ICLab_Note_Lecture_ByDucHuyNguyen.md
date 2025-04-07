@@ -144,45 +144,41 @@ open => vim design.f => input MY_DESIGN.v
 ```./run_jp/superlint.sh```
 
 
-## :blush: Demo
-:::success
-Some interesting script for ICLAB
-:::
-
-1.  **Display current Quota Percentage when logging in**  
+## Demo
+### Some interesting script for ICLAB
+1. **Display current Quota Percentage when logging in**  
 ![upload_9ddd8fc72c89713bea6c737fd88c95c2](./Imgs/QuotaPercentage.png)
 
-1.  ****Quickly switch folders**  
+2. **Quickly switch folders**  
 Expand function description:  
-- Input 0 swithc to `00_TESTBED`  
-- Input 1 switch to `01_RTL`  
-- Input 2 switch to `02_SYN`  
-- Input 3 switch to `03_GATE`  
-- Input 4 switch to `04_MEM`  
-- Input 9 switch to `09_SUBMIT`  
-- m `Memory`
-![upload_047f6122b5b5907682552a550d305f85](https://hackmd.io/_uploads/S1WsP8TYp.gif)
+ - Input 0 swithc to `00_TESTBED`  
+ - Input 1 switch to `01_RTL`  
+ - Input 2 switch to `02_SYN`  
+ - Input 3 switch to `03_GATE`  
+ - Input 4 switch to `04_MEM`  
+ - Input 9 switch to `09_SUBMIT`  
+ - m `Memory`
+![QuicklySwitchFolders](./Imgs/QuicklySwitchFolders.gif)
 
-1. Modify the clk peroid input **with one click**c to view the current `clk`setting  
-    input modification and displayc peroid `clk`  
-    ![upload_c96260db43985df7f8c6ad568011a2ec](https://hackmd.io/_uploads/BkHAPL6Fp.gif)
+3. Modify the clk period input **typing down "c" in command line** to view the current `clk` setting  
+  input modification and display period `clk`  
+  ![ModifyClkPeriod](./Imgs/ModifyClkPeriod.gif)
 
-2.  **Turn on/off fsdb**  
+4. **Turn on/off fsdb**  
 Input with one click f. View current settings. Input `fsdb`modifications and display settings. Enter modifications and display settings. Enter modifications and display settings. 
     - For rtl on/off `rtl fsdb`   
     - For gate on/off `gate fsdb`   
     - For post on/off `post fsdb`   
-    ![upload_f813b7894a677eeb2014f7d20b22946b](https://hackmd.io/_uploads/Bk0eO8ata.gif)
+    ![Turn_On_Off_Fsdb](./Imgs/Turn_On_Off_Fsdb.gif)
 
-1.  **Open DesignWare IP User Guide with one click**  
-    . Input dwipto open DesignWare IP Pdf.  
+1. **Open DesignWare IP User Guide with one click**  
+    . Input ```dwip``` to open PDF file of DesignWare IP.  
     Input ioto open IO Pdf.  
-    ![upload_7d912196f2525cba9b06fc7c4caf374e](https://hackmd.io/_uploads/SJ7zdUaYT.gif)
+    ![DesignWare IP](./Imgs/DesignWare_IP_PDF.gif)
 
 
-Script content and setting method
+### Script content and setting method
 ======================================
-
 0.  **Copy the instructions in the following steps directly. In MobaXterm, you can right-click the mouse to paste and execute.**
 1.  Execute the following command to add a new script folder`script`
     ```bash
