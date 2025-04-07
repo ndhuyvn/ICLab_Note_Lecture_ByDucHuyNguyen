@@ -73,29 +73,26 @@ You can select the variable directly in the coding tab to inspect its value.
 ### § Synthesis Step  
 
 There are two options in the **`.tcl`** file named **`syn.tcl`**:  
-
 1. **`compile_ultra`**:  
    - Instructs the Synopsys tool to normalize the timing during synthesis.  
 2. **`compile`**:  
    - Performs synthesis normally without any timing optimization.  
-
 > ⚠️ **Important:**  
 > Use only one of these options at a time. Do not use both together.  
-
 ---
+![Synthesis Options](Imgs/syn_options.png)
 
 ### § Running RTL, SYN, or GATE Level  
-
 - Pay attention to the **`TESTBED.v`** file.  
 - The **`.fsdb`** file is used to store waveform data.  
   - The command **`$fsdbDumpvars();`** is used to dump variables following the waveform of the **`.fsdb`** file.  
 - If waveform debugging is unnecessary, remove these two commands to save storage.  
-
 > ⚠️ **Note:**  
 > Do not delete the command **`$sdf_annotate("CNN_SYN.sdf", u_CNN);`**.  
 > This command saves timing information (like delay) from RTL to GATE conversion, which is crucial.  
+![RTL Gate Settings](Imgs/rtl_gate_settings.png)
 
----
+
 
 # Some Useful Command Lines  
 
