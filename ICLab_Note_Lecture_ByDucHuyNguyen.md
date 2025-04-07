@@ -45,8 +45,9 @@ onenote:https://d.docs.live.net/c14830083d8bce9a/Documents/Working%20-%20Company
 ---
 
 1. Example of · Sign in successfully 
-![image](https://hackmd.io/_uploads/SkOw5W3lA.png)
-![image](https://hackmd.io/_uploads/ryaP9-3xR.png)
+![image](./Imgs/SignInSuccess_1.png)
+![image](./Imgs/SignInSuccess_2.png)
+
 # First Look of Tools  
 
 ## Verdi From Synopsys  
@@ -56,19 +57,19 @@ onenote:https://d.docs.live.net/c14830083d8bce9a/Documents/Working%20-%20Company
 #### • Verdi from Synopsys
 
 #### ◦ Initial View  
-![Initial View](Imgs/SynopsysVerdi_1.png)
+![Initial View]./(Imgs/SynopsysVerdi_1.png)
 
 #### ◦ Open Memory/MDA for More Detail  
-![Open Memory](Imgs/SynopsysVerdi_2.png)
+![Open Memory](./Imgs/SynopsysVerdi_2.png)
 
 #### ◦ Using “Sync” to See Real-Time Variable Values  
 When clicking the “---” line on the waveform, “Sync” allows you to view the actual value of the variable at that moment.  
 The position of the “---” line corresponds exactly to the variable’s representation in the Memory Table.  
-![Sync Feature](Imgs/SynopsysVerdi_3.png)
+![Sync Feature](./Imgs/SynopsysVerdi_3.png)
 
 #### ◦ Selecting Variables in the Code Tab  
 You can select the variable directly in the coding tab to inspect its value.  
-![Select Variable in Code](Imgs/SynopsysVerdi_4.png)
+![Select Variable in Code](./Imgs/SynopsysVerdi_4.png)
 
 ### § Synthesis Step  
 
@@ -80,7 +81,7 @@ There are two options in the **`.tcl`** file named **`syn.tcl`**:
 > ⚠️ **Important:**  
 > Use only one of these options at a time. Do not use both together.  
 ---
-![Synthesis Options](Imgs/syn_options.png)
+![Synthesis Options](./Imgs/syn_options.png)
 
 ### § Running RTL, SYN, or GATE Level  
 - Pay attention to the **`TESTBED.v`** file.  
@@ -90,7 +91,7 @@ There are two options in the **`.tcl`** file named **`syn.tcl`**:
 > ⚠️ **Note:**  
 > Do not delete the command **`$sdf_annotate("CNN_SYN.sdf", u_CNN);`**.  
 > This command saves timing information (like delay) from RTL to GATE conversion, which is crucial.  
-![RTL Gate Settings](Imgs/rtl_gate_settings.png)
+![RTL Gate Settings](./Imgs/rtl_gate_settings.png)
 
 
 
@@ -148,10 +149,10 @@ open => vim design.f => input MY_DESIGN.v
 Some interesting script for ICLAB
 :::
 
-1.  **Display current quota percentage when logging in**  
-![upload_9ddd8fc72c89713bea6c737fd88c95c2](https://hackmd.io/_uploads/SJf1wU6tp.png)
+1.  **Display current Quota Percentage when logging in**  
+![upload_9ddd8fc72c89713bea6c737fd88c95c2](./Imgs/QuotaPercentage.png)
 
-2.  ****Quickly switch folders**  
+1.  ****Quickly switch folders**  
 Expand function description:  
 - Input 0 swithc to `00_TESTBED`  
 - Input 1 switch to `01_RTL`  
@@ -162,18 +163,18 @@ Expand function description:
 - m `Memory`
 ![upload_047f6122b5b5907682552a550d305f85](https://hackmd.io/_uploads/S1WsP8TYp.gif)
 
-3. Modify the clk peroid input **with one click**c to view the current `clk`setting  
+1. Modify the clk peroid input **with one click**c to view the current `clk`setting  
     input modification and displayc peroid `clk`  
     ![upload_c96260db43985df7f8c6ad568011a2ec](https://hackmd.io/_uploads/BkHAPL6Fp.gif)
 
-4.  **Turn on/off fsdb**  
+2.  **Turn on/off fsdb**  
 Input with one click f. View current settings. Input `fsdb`modifications and display settings. Enter modifications and display settings. Enter modifications and display settings. 
     - For rtl on/off `rtl fsdb`   
     - For gate on/off `gate fsdb`   
     - For post on/off `post fsdb`   
     ![upload_f813b7894a677eeb2014f7d20b22946b](https://hackmd.io/_uploads/Bk0eO8ata.gif)
 
-5.  **Open DesignWare IP User Guide with one click**  
+1.  **Open DesignWare IP User Guide with one click**  
     . Input dwipto open DesignWare IP Pdf.  
     Input ioto open IO Pdf.  
     ![upload_7d912196f2525cba9b06fc7c4caf374e](https://hackmd.io/_uploads/SJ7zdUaYT.gif)
