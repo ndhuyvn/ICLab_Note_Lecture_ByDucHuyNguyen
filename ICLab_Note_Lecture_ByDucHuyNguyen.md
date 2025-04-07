@@ -211,7 +211,7 @@ Input with one click f. View current settings. Input `fsdb`modifications and dis
     chmod +x $HOME/script/setting.csh
     ```
     
-3.  Execute the following commands to add `cd.csh`a script and set execution permissions
+3.  Execute the following commands to add `cd.csh` a script and set execution permissions
     ```bash
     cat > $HOME/script/cd.csh << EOF
     #!/bin/tcsh
@@ -251,8 +251,8 @@ Input with one click f. View current settings. Input `fsdb`modifications and dis
     chmod +x $HOME/script/cd.csh
     ```
     
-4.  Execute the following commands to add `clk.csh`a script and set execution permissions
-    ```bash
+4.  Execute the following commands to add `clk.csh` a script and set execution permissions
+   ```bash
     cat > $HOME/script/clk.csh << EOF
     #!/bin/tcsh
     # Brief : This is a script to change the clock peroid define
@@ -304,7 +304,7 @@ Input with one click f. View current settings. Input `fsdb`modifications and dis
     EOF
     
     chmod +x $HOME/script/clk.csh
-    ```
+   ```
     
 5.  Execute the following commands to add `fsdb.csh`a script and set execution permissions
     ```bash
@@ -399,7 +399,7 @@ Input with one click f. View current settings. Input `fsdb`modifications and dis
     chmod +x $HOME/script/fsdb.csh
     ```
     
-6.  Add new `.cshrc`profile
+6.  Add new `.cshrc` profile
     ```bash
     cd $HOME
     cat > $HOME/.cshrc << EOF
@@ -440,10 +440,12 @@ Input with one click f. View current settings. Input `fsdb`modifications and dis
     source $HOME/.cshrc
     ```
     
-7.  **If you want to modify the Lab path later**
- - Editing `~script/setting.csh`_`set FOLDER="Lab??/Exercise"`
- - Or enter it directly `setting`, and the VSCode window will pop up and you can edit it. ![Img_Setting_csh](./Imgs/Setting_csh.png)
+7.  **If you would like to modify the Lab path later**
+  - Open file `~script/setting.csh`, please find `set FOLDER="Lab??/Exercise"` to edit `Lab??`
+  - Or enter it directly `setting`, and the VSCode window will pop up and you can edit it. ![Img_Setting_csh](./Imgs/Setting_csh.png)
 ----------------------------------------------------------------
+
+
 
 
 # Important Source Files for Digital IC Flow
