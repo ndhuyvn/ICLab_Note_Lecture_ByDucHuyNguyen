@@ -51,14 +51,24 @@ onenote:https://d.docs.live.net/c14830083d8bce9a/Documents/Working%20-%20Company
 
 ## Verdi From Synopsys  
 
-### § Initial View  
+### First Look of Tools
 
-- Open Memory/MDA for more detail.  
-- Use **"Sync"** to see the real value of a variable when clicking to select the **"---"** line on the waveform.  
-  - The position of the **"---"** line marks the exact moment the variable is presented in the Memory Table.  
-- Select the variable on the coding tab to view its value.  
+#### • Verdi from Synopsys
 
----
+#### ◦ Initial View  
+![Initial View](Imgs/SynopsysVerdi_1.png)
+
+#### ◦ Open Memory/MDA for More Detail  
+![Open Memory](Imgs/SynopsysVerdi_2.png)
+
+#### ◦ Using “Sync” to See Real-Time Variable Values  
+When clicking the “---” line on the waveform, “Sync” allows you to view the actual value of the variable at that moment.  
+The position of the “---” line corresponds exactly to the variable’s representation in the Memory Table.  
+![Sync Feature](Imgs/SynopsysVerdi_3.png)
+
+#### ◦ Selecting Variables in the Code Tab  
+You can select the variable directly in the coding tab to inspect its value.  
+![Select Variable in Code](Imgs/SynopsysVerdi_4.png)
 
 ### § Synthesis Step  
 
