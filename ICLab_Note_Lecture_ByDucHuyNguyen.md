@@ -496,37 +496,27 @@ Input with one click f. View current settings. Input `fsdb`modifications and dis
     -	SRAM from Synopsys Design ware:
      ![image](./Imgs/SRAM_16.png)  
 
-## APR - Layout
+## APR - Layout Briefly
 1. Chip Layout View:  
    ![image](./Imgs/ChipLayoutView.png)  
-
 2. Core to IO boundary:  
    ![image](./Imgs/CoreIOBoundary.png)  
-
 3. Core Ring:  
    ![image](./Imgs/CoreRing.png)
-
 4. Post-Route setup time analysis:  
    ![image](./Imgs/PostRouteSetupTimeAnalysis.png)  
-
 5. Post-Route hold time analysis:  
    ![image](./Imgs/PostRouteHoldTimeAnalysis.png)  
-
 6. DRC result:  
-   ![image](./Imgs/DRCResult.png)  
-
+   ![image](./Imgs/DRCResult.png) 
 7. LVS result:  
    ![image](./Imgs/LVSResult.png)
-
 8. Post Layout simulation result:  
    ![image](./Imgs/PostLayoutSimulation.png)
-
 9. Power result:  
    ![image](./Imgs/PowerResult.png)
-
 10. IR Drop Results:  
     ![image](./Imgs/IRDropResult.png)  
-
  - A brief explanation of the method you used to mitigate the IR drop issue: 
   - The number of power pads was increased, ensuring there are two pairs of core power and IO power on each side of the design. 
   - The distribution of power across the circuitry was enhanced by adding more power pads. 
